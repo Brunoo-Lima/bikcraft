@@ -15,12 +15,12 @@
       flex-wrap: wrap;
       gap: 2rem;
 
-      @media(max-width: 800px ) {
+      @media (max-width: 800px) {
         gap: 1rem;
       }
 
-      @media(max-width: 600px ) {
-        gap: .8rem;
+      @media (max-width: 600px) {
+        gap: 0.8rem;
       }
 
       a {
@@ -35,7 +35,7 @@
           width: 0;
           background-color: $color0;
           margin-top: 2px;
-          transition: .3s;
+          transition: 0.3s;
           position: absolute;
         }
 
@@ -43,21 +43,21 @@
           width: 100%;
         }
 
-        @media(max-width: 800px ) {
+        @media (max-width: 800px) {
           padding: 1rem 1.2rem;
           border-radius: 4px;
-          
+
           &:hover {
             background-color: $color10;
           }
 
-          &::after { 
-            display: none; 
+          &::after {
+            display: none;
           }
         }
 
-        @media(max-width: 600px ) {
-          padding: .6rem 1rem;
+        @media (max-width: 600px) {
+          padding: 0.6rem 1rem;
           font-size: 1rem;
         }
       }

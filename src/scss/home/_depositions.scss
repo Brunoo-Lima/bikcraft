@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   background-color: $color-p1;
 
-  @media(max-width:800px) {
+  @media (max-width: 800px) {
     grid-template-columns: 1fr;
   }
 
@@ -13,8 +13,72 @@
     object-fit: cover;
     border-radius: none;
 
-    @media(max-width:800px) {
+    @media (max-width: 800px) {
       max-height: 200px;
+      .depositions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: $color-p1;
+
+        @media (max-width: 800px) {
+          grid-template-columns: 1fr;
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: none;
+
+          @media (max-width: 800px) {
+            max-height: 200px;
+          }
+        }
+
+        .depositions-content {
+          padding: 40px 40px 80px 80px;
+          align-self: end;
+
+          @media (max-width: 800px) {
+            padding: 40px 20px;
+            justify-self: center;
+          }
+
+          p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            margin-bottom: 32px;
+            max-width: 32ch;
+            position: relative;
+
+            @media (max-width: 800px) {
+              font-size: 18px;
+            }
+
+            &::before,
+            &::after {
+              font-size: 5rem;
+              color: $color-p2;
+              position: absolute;
+            }
+
+            &::before {
+              content: '“';
+              left: -50px;
+              top: -20px;
+            }
+
+            &::after {
+              content: '”';
+            }
+          }
+
+          span {
+            margin-top: 4px;
+            display: inline-block;
+          }
+        }
+      }
     }
   }
 
@@ -22,19 +86,19 @@
     padding: 40px 40px 80px 80px;
     align-self: end;
 
-    @media(max-width:800px) {
+    @media (max-width: 800px) {
       padding: 40px 20px;
       justify-self: center;
     }
 
     p {
-      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       font-style: italic;
       margin-bottom: 32px;
       max-width: 32ch;
       position: relative;
 
-      @media(max-width:800px) {
+      @media (max-width: 800px) {
         font-size: 18px;
       }
 
