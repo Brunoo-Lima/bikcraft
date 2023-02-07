@@ -45,6 +45,7 @@ $font-Secundary: 'Roboto', sans-serif;
 }
 
 .font-2-pp {
+
   font: 400 0.875rem/1.43 $font-Secundary;
 }
 
@@ -52,8 +53,14 @@ $font-Secundary: 'Roboto', sans-serif;
   font: 500 1.125rem/1.35 $font-Secundary;
 }
 
-.font-2-r {
+.font-2-r, .font-2-r-b {
   font: 500 1.125rem/1.35 $font-Primary;
+}
+
+.font-2-r-b {
+  font-weight: 600;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
 }
 
 .font-2-sub {
