@@ -1,3 +1,10 @@
 @import 'geral';
+@import './utilidades/typographies';
+@import './utilidades/colors';
 @import 'header';
+
+//Utilidades
+@import './utilidades/components';
+
+//Home
 @import 'introduce';

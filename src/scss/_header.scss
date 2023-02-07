@@ -1,5 +1,5 @@
 .header-bg {
-  background: #000000;
+  background: $color12;
 
   .header {
     display: flex;
@@ -27,8 +27,9 @@
       }
 
       a {
+        font-family: $fontPrimary;
+        font-weight: 400;
         font-size: 1.2rem;
-        color: #fff;
         display: inline-block;
         padding: 2rem 0;
         position: relative;
@@ -38,7 +39,7 @@
           display: block;
           height: 2px;
           width: 0;
-          background-color: #fff;
+          background-color: $color0;
           margin-top: 2px;
           transition: .3s;
           position: absolute;
@@ -46,7 +47,6 @@
 
         &:hover::after {
           width: 100%;
-      
         }
 
         @media(max-width: 800px ) {
@@ -54,7 +54,7 @@
           border-radius: 4px;
           
           &:hover {
-            background-color: #2e2e2e;
+            background-color: $color10;
           }
 
           &::after { 
