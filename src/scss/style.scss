@@ -1,14 +1,15 @@
-@import 'geral';
-@import './utilidades/typographies';
-@import './utilidades/colors';
-@import 'header';
+@import './global/geral';
+@import './utilities/typographies';
+@import './utilities/colors';
+@import './home/header';
 
 //Utilidades
-@import './utilidades/components';
+@import './utilities/components';
 
 //Home
-@import 'introduce';
-@import 'tecnology';
+@import './home/introduce';
+@import './home/tecnology';
+@import './home/partners';
 
 //bike-list
 @import './bicicletas/bike-list';
