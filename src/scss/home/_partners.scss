@@ -30,6 +30,11 @@
       padding: 32px;
       border-left: 2px solid $color2;
 
+      
+      @media(max-width: 800px) {
+       padding: 20px;
+      }
+
       &:first-child, &:nth-child(5){
         border-left: none;        
       }
