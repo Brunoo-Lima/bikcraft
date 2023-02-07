@@ -1,9 +1,6 @@
 .button {
-  font-family: $fontPrimary;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.33;
-  color: #332200;
+  font: 600 1.125rem/1.35 $font-Primary;
+  color: $color-p5;
   text-transform: uppercase;
   background: linear-gradient( #ffbb00, #f2a50c);
   display: inline-block;
@@ -17,7 +14,6 @@
 
   @media(max-width: 600px) {
     padding: 0.75rem 1rem;
-    font-size: 16px;
+    font-size: 1rem;
   }
-  
 }

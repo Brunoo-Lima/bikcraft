@@ -1,20 +1,33 @@
-$color0: #fff;
-$color3: #ffbb00;
-$color5:  #b2b2b2;
+$color0: #ffffff;
+$color-1: #f7f7f7;
+$color2: #ededed;
+$color3: #dedede;
+$color4: #b2b2b2;
+$color5: #cccccc;
+$color6: #9c9c9c;
+$color7: #717171;
+$color8: #595959;
+$color9: #404040;
 $color10:#2e2e2e;
-$color11: #111;
+$color11: #111111;
 $color12: #000000;
+
+$color-p1: #ffbb00;
+$color-p2: #e4a30b;
+$color-p3: #a66f00;
+$color-p4: #664400;
+$color-p5: #332200;
 
 .color-0 {
   color: $color0;
 }
 
-.color-5 {
- color: $color5;
+.color-1 {
+  color: $color-1;
 }
 
-.color-3 {
-  color: $color3;
+.color-5 {
+ color: $color5;
 }
 
 .color-11 {
@@ -23,4 +36,24 @@ $color12: #000000;
 
 .color-12 {
   color: $color12;
+}
+
+.color-p1 {
+  color: $color-p1;
+}
+
+.color-p2 {
+  color: $color-p2;
+}
+
+.color-p3 {
+  color: $color-p3;
+}
+
+.color-p4 {
+  color: $color-p4;
+}
+
+.color-p5 {
+  color: $color-p5;
 }
