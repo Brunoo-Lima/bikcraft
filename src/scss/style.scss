@@ -5,7 +5,7 @@
 
 //Utilities
 @import './utilities/components';
-
+@import './utilities/form';
 //Home
 @import './home/introduce';
 @import './home/tecnology';
@@ -26,5 +26,9 @@
 @import './safes/benefits';
 @import './safes/questions';
 
+//contact
+@import './contact/contact';
+@import './contact/stores';
+
 //terms
-@import './terms/terms.scss';
+@import './terms/terms';

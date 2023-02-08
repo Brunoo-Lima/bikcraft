@@ -1,0 +1,41 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+
+  label {
+    display: block;
+    font: 400 1rem/1.5 $font-Primary;
+    margin-bottom: 4px;
+  }
+
+  .col-2 {
+    grid-column: span 2;
+
+    @media (max-width: 600px) {
+      grid-column: 1;
+    }
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    font: 400 1rem/1.5 $font-Secundary;
+    background-color: $color-1;
+    border: 1px solid $color2;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+      border-color: $color-p1;
+      background: $color0;
+      box-shadow: 0 0 0 2px #fea;
+    }
+  }
+}
