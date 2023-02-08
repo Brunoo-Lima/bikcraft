@@ -24,13 +24,12 @@
         background-color: $color-p1;
         position: absolute;
         left: -12px;
-        //top: 7px;
       }
     }
 
     .budget-product {
       border-radius: 5px 0 0 5px;
-      background-color: $color12;
+      background: $color12;
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-content: start;
@@ -151,7 +150,8 @@
 
     .budget-data {
       border-radius: 0 5px 5px 0;
-      background-color: $color0;
+      background: $color0 url('../../img/dec/bottom-right.svg') no-repeat bottom
+        20px right 20px;
 
       @media (max-width: 800px) {
         border-radius: 0 0 5px 5px;
