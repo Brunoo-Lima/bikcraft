@@ -11,12 +11,16 @@
 @import './home/tecnology';
 @import './home/partners';
 @import './home/depositions';
-@import './home/safe';
 @import './home/footer';
 
 //bike-list
 @import './bicicletas/bike-list';
 @import './bicicletas/bikes';
+
+//safes
+@import './safes/safe';
+@import './safes/benefits';
+@import './safes/questions';
 
 //terms
 @import './terms/terms.scss';
