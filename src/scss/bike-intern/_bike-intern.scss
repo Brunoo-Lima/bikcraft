@@ -1,0 +1,119 @@
+.bike-intern {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .bike-intern-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media (max-width: 800px) {
+      grid-row: 2;
+    }
+
+    img {
+      flex: 1;
+      min-width: 200px;
+
+      &:first-child {
+        min-width: 100%;
+      }
+    }
+  }
+
+  .bike-intern-content {
+    p {
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin-bottom: 12px;
+    }
+
+    .bike-intern-buy {
+      display: grid;
+      grid-template-columns: max-content auto;
+      align-items: center;
+      justify-items: start;
+      gap: 8px 12px;
+      margin-bottom: 40px;
+
+      @media (max-width: 400px) {
+        grid-template-columns: 1fr;
+      }
+
+      a {
+        grid-row: span 2;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+        background-color: $color12;
+        gap: 8px;
+        padding: 4px 8px;
+        border-radius: 4px;
+      }
+    }
+
+    .bike-intern-informations {
+      margin-bottom: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+
+      @media (max-width: 400px) {
+        grid-template-columns: 1fr;
+      }
+
+      img {
+        width: 24px;
+        margin-bottom: 8px;
+      }
+
+      h3 {
+        margin-bottom: 8px;
+      }
+    }
+
+    .bike-intern-token {
+      li {
+        padding: 4px 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $color11;
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      span {
+        color: $color7;
+      }
+    }
+
+    .bike-intern-informations,
+    .bike-intern-token {
+      padding: 32px;
+      background-color: $color12;
+      border-radius: 4px;
+    }
+  }
+}
+
+#nimbus .title p {
+  text-transform: uppercase;
+}

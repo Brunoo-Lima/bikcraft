@@ -3,7 +3,7 @@
 @import './utilities/colors';
 @import './home/header';
 
-//Utilidades
+//Utilities
 @import './utilities/components';
 
 //Home
@@ -16,6 +16,10 @@
 //bike-list
 @import './bicicletas/bike-list';
 @import './bicicletas/bikes';
+
+//bike-intern
+@import './bike-intern/bike-intern';
+@import './bike-intern/safe-bike';
 
 //safes
 @import './safes/safe';
