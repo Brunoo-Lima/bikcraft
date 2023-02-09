@@ -39,7 +39,7 @@
           position: absolute;
         }
 
-        &:hover::after {
+         &:hover::after, &.active::after {
           width: 100%;
         }
 

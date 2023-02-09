@@ -1,7 +1,7 @@
 .form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 1.25rem;
 
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
@@ -10,7 +10,7 @@
   label {
     display: block;
     font: 400 1rem/1.5 $font-Primary;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
 
   .col-2 {
@@ -27,7 +27,7 @@
     font: 400 1rem/1.5 $font-Secundary;
     background-color: $color-1;
     border: 1px solid $color2;
-    padding: 12px;
+    padding: 0.75rem;
     border-radius: 4px;
     width: 100%;
 

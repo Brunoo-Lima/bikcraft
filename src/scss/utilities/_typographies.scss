@@ -1,42 +1,39 @@
 $font-Primary: 'Poppins', sans-serif;
 $font-Secundary: 'Roboto', sans-serif;
 
-.font-1-pp {
+.font-1-small {
   font: 400 0.75rem/1.35 $font-Primary;
 }
 
-.font-1-m {
+.font-1-medium {
   font: 400 1rem/1.5 $font-Primary;
 }
 
-//xs
-.font-1-r,
-.font-1-r-b {
+.font-1-mediumRegular,
+.font-1-mediumRegular-bold {
   font: 400 1.125rem/1.35 $font-Primary;
 }
 
-//font-1-m-b
-.font-1-r-b {
-  font-weight: 600;
-}
-
-//font-1-pp
-.font-1-g,
-.font-1-g-b {
-  font: 400 1.5rem/1.5 $font-Primary;
-}
-
-.font-1-g-b {
+.font-1-mediumRegular-bold {
   font-weight: 500;
   letter-spacing: 0.015em;
   text-transform: uppercase;
 }
 
-.font-1-sub {
+.font-1-regular,
+.font-1-regular-bold {
+  font: 400 1.5rem/1.5 $font-Primary;
+}
+
+.font-1-regular-bold {
+  font-weight: 600;
+}
+
+.font-1-subtitle {
   font: 500 2rem/1.125 $font-Primary; //font-1-xl
 }
 
-.font-1-t {
+.font-1-title {
   //line-height: 1.125; //tamanho relativo da fonte
   font: 600 4rem/1.125 $font-Primary;
 
@@ -49,33 +46,35 @@ $font-Secundary: 'Roboto', sans-serif;
   }
 }
 
-.font-2-pp {
+.font-2-small {
   font: 400 0.875rem/1.43 $font-Secundary;
 }
 
-.font-2-m {
+.font-2-medium {
   font: 500 1.125rem/1.35 $font-Secundary;
 }
 
-.font-2-r,
-.font-2-r-b {
+.font-2-mediumRegular,
+.font-2-mediumRegular-bold {
   font: 500 1.125rem/1.35 $font-Primary;
 }
 
-.font-2-r-b {
+.font-2-mediumRegular-bold {
   font-weight: 600;
   letter-spacing: 0.015em;
   text-transform: uppercase;
 }
 
-.font-2-sub {
-  font: 500 2rem/1.25 $font-Primary;
-}
-
-.font-2-p {
+.font-2-paragraph {
   font: 400 1.5rem/1.5 $font-Secundary;
 
   @media (max-width: 1200px) {
     font-size: 1.125rem;
   }
 }
+
+.font-2-subtitle {
+  font: 500 2rem/1.25 $font-Primary;
+}
+
+

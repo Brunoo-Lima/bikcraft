@@ -1,7 +1,7 @@
 .container {
   max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -47,7 +47,7 @@
     width: 18px;
     height: 10px;
     display: inline-block;
-    margin: 0 12px;
+    margin: 0 0.75rem;
     background: url('../../img/icones/seta.svg');
     transition: transform 0.2s;
   }
@@ -78,24 +78,23 @@
 }
 
 // titulo interno das pags
-
 .title-bg {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
   background-color: $color11;
 
   @media (max-width: 800px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .title {
-    background: url('../../img/dec/top-right.svg') no-repeat top right 20px;
+    background: url('../../img/dec/top-right.svg') no-repeat top right 1.25rem;
   }
 
   .title {
     p {
-      margin-bottom: 4px;
+      margin-bottom: 0.25rem;
 
       @media (max-width: 800px) {
         font-size: 1rem;
