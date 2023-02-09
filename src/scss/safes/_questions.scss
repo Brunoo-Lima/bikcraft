@@ -1,22 +1,22 @@
 .questions {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 
   @media (max-width: 800px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
   }
 
   h2 {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 
     @media (max-width: 800px) {
-      margin-bottom: 40px;
+      margin-bottom: 2.5rem;
     }
   }
 
   dl > div {
-    padding: 20px;
+    padding: 1.25rem;
     border-radius: 4px;
 
     &:nth-child(odd) {
@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
     cursor: pointer;
 
     &::before {
@@ -53,8 +53,8 @@
   }
 
   dd {
-    padding-top: 16px;
-    padding-left: 20px;
+    padding-top: 1rem;
+    padding-left: 1.25rem;
     max-width: 80ch;
   }
 }

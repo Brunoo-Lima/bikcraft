@@ -23,25 +23,25 @@
   }
 
   .depositions-content {
-    padding: 40px 40px 80px 80px;
+    padding: 2.5rem 2.5rem 5rem 5rem;
     align-self: end;
-    background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 40px
-      right 40px;
+    background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 2.5rem
+      right 2.5rem;
 
     @media (max-width: 800px) {
-      padding: 40px 20px;
+      padding: 2.5rem 1.25rem;
       justify-self: center;
     }
 
     p {
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-style: italic;
-      margin-bottom: 32px;
+      margin-bottom: 2rem;
       max-width: 32ch;
       position: relative;
 
       @media (max-width: 800px) {
-        font-size: 18px;
+        font-size: 1.125rem;
       }
 
       &::before,
@@ -63,7 +63,7 @@
     }
 
     span {
-      margin-top: 4px;
+      margin-top: 0.25rem;
       display: inline-block;
     }
   }

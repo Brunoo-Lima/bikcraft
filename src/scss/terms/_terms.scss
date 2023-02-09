@@ -1,18 +1,18 @@
 .terms {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   h2 {
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   p {
     max-width: 75ch;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 
     & + h2 {
-      margin-top: 60px;
+      margin-top: 3.75rem;
     }
   }
 }
