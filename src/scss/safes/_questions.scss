@@ -56,5 +56,10 @@
     padding-top: 1rem;
     padding-left: 1.25rem;
     max-width: 80ch;
+    display: none;
+
+    &.active {
+      display: block;
+    }
   }
 }
