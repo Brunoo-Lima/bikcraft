@@ -1,5 +1,5 @@
 export default function initQuestions() {
-  const questionsList = document.querySelectorAll('[data-anime="questions"] dt');
+  const questionsList = document.querySelectorAll('dl dt');
 
   if (questionsList.length) {
     questionsList[0].classList.add('active');

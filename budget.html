@@ -7,12 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Orçamento | Bikcraft</title>
   <meta name="description" content="Orçamentos">
-
   <link rel="stylesheet" href="./src/scss/css/style.min.css">
+  <link rel="shortcut icon" href="./src/img/favicon.svg" type="image/x-icon">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
 </head>
 
 <body id="budget">
@@ -40,7 +38,7 @@
       </div>
     </div>
 
-    <form class="budget container" action="./budget.html">
+    <form class="budget container fadeInDown" data-anime="400" action="./budget.html">
       <div class="budget-product">
         <h2 class="font-1-regular color-5">Bikcraft ou Seguro?</h2>
 
@@ -189,7 +187,8 @@
       <p class="footer-copy font-2-medium color-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
-
+  
+  <script src="./src/js/plugin/simple.anima.js"></script>
   <script type="module" src="./src/js/script.js"></script>
 </body>
 

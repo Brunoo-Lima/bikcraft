@@ -9,10 +9,9 @@
   <meta name="description" content="Seguros">
 
   <link rel="stylesheet" href="./src/scss/css/style.min.css">
+  <link rel="shortcut icon" href="./src/img/favicon.svg" type="image/x-icon">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
 </head>
 
 <body id="safes">
@@ -41,8 +40,8 @@
     </div>
 
     <div class="safe container">
-      <div class="safe-item">
-        <h3 class="font-1-subtitle color-6">PRATA</h3>
+      <div class="safe-item fadeInLeft" data-anime="200">
+        <h3 class="font-1-subtitle color-6" >PRATA</h3>
         <span class="font-1-subtitle color-0">R$ 199 <span class="font-1-small color-6">mensal</span></span>
         <ul class="font-2-medium color-0">
           <li>Duas trocas por ano</li>
@@ -53,7 +52,7 @@
         <a class="button secundary" href="./budget.html?tipo=safe&produto=prata">Inscreva-se</a>
       </div>
 
-      <div class="safe-item">
+      <div class="safe-item fadeInRight" data-anime="400">
         <h3 class="font-1-subtitle color-p1">OURO</h3>
         <span class="font-1-subtitle color-0">R$ 299 <span class="font-1-small color-6">mensal</span></span>
         <ul class="font-2-medium color-0">
@@ -69,7 +68,7 @@
     </div>
   </main>
 
-  <article class="benefits-bg">
+  <article class="benefits-bg fadeInDown" data-anime="600">
     <div class="benefits container">
       <h2 class="font-1-title color-0">vantagens<span class="color-p1">.</span></h2>
       <ul>
@@ -107,10 +106,10 @@
     </div>
   </article>
 
-  <article class="questions container">
+  <article class="questions container fadeInDown"  data-anime="600">
     <h2 class="font-1-title">perguntas frequentes<span class="color-p1">.</span></h2>
 
-    <dl data-anime="questions">
+    <dl>
       <div>
         <dt class="font-1-regular-bold">Qual forma de pagamento vocês aceitam?</dt>
         <dd class="font-2-mediumRegular color-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
@@ -175,7 +174,8 @@
       <p class="footer-copy font-2-medium color-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
-
+  
+  <script src="./src/js/plugin/simple.anima.js"></script>
   <script type="module" src="./src/js/script.js"></script>
 </body>
 

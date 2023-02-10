@@ -7,12 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contatos | Bikcraft</title>
   <meta name="description" content="Contatos">
-
   <link rel="stylesheet" href="./src/scss/css/style.min.css">
+  <link rel="shortcut icon" href="./src/img/favicon.svg" type="image/x-icon">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
 </head>
 
 <body id="contact">
@@ -41,7 +39,7 @@
     </div>
 
 
-    <div class="contact container">
+    <div class="contact container fadeInDown" data-anime="300">
       <section class="contact-data" aria-label="Endereço">
         <h2 class="font-1-subtitle color-0">Loja Online</h2>
 
@@ -100,7 +98,7 @@
 
   <article class="stores container">
     <h2 class="font-1-title">lojas locais<span class="color-p1">.</span></h2>
-    <div class="stores-item">
+    <div class="stores-item fadeInLeft" data-anime="300">
       <img src="./src/img/lojas/rj.jpg" width="1120" height="520" alt="mapa marcando o endereço em Rua Ali Perto, 25 - Rio de Janeiro - RJ">
       <div class="stores-content">
         <h3 class="font-1-subtitle">Rio de Janeiro</h3>
@@ -116,7 +114,7 @@
       </div>
     </div>
 
-    <div class="stores-item">
+    <div class="stores-item fadeInRight" data-anime="300">
       <img src="./src/img/lojas/sp.jpg" width="1120" height="520" alt="mapa marcando o endereço em Rua Ali Perto, 25 - São Paulo - SP">
       <div class="stores-content">
         <h3 class="font-1-subtitle">São Paulo</h3>
@@ -171,6 +169,7 @@
     </div>
   </footer>
 
+  <script src="./src/js/plugin/simple.anima.js"></script>
   <script type="module" src="./src/js/script.js"></script>
 </body>
 
